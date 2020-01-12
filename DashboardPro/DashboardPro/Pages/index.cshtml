@@ -1,0 +1,58 @@
+﻿@page
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+
+<!--STYLESHEETS-->
+<link rel="stylesheet" href="../CSS/main.css"><!--Main flow for all pages-->
+<link rel="stylesheet" href="../CSS/nav.css"><!--How the pop-out navbar looks-->
+
+<html>
+    <head>
+        <title>Admin Dashbaord</title>
+    </head>
+
+    <body>
+
+        <header>
+            <img id="logo" src="../Assets/Photos/logo.png"><!--Company logo-->
+        </header>
+
+        <nav>
+            <!--Navigation button on main screen-->
+            <div id="navbar">
+                <img id="menubutton" src="../Assets/Photos/menuicon.png" onclick="openNav()"><!--Picture for menu icon-->
+            </div>
+            <!--Menu from navigation menu-->
+            <div id="sidenav">
+                <a id="closebutton" href="javascript:void(0)" onclick="closeNav()">&times;</a>
+                <div id="navlist"></div><!--Holds authenticated nav list items-->
+            </div>
+        </nav>
+
+        <main id="main">
+       
+            <button id="testbutton" onclick="datapull()"> Test </button>
+
+            <div id="app">
+
+            </div>
+        </main>
+
+        
+
+        <footer>
+        </footer>
+
+    </body>
+</html>
+
+<!--SCRIPTS-->
+<script src="../JS/nav.js"></script><!--Handles the fuctionality of the pop-out nav bar-->
+<script src="../JS/auth.js"></script><!--Handles user autherorization-->
+<script src="../JS/data.js"></script>
+<!--Libraries-->
+<script src="../libs/jQuery.js"></script>
+
