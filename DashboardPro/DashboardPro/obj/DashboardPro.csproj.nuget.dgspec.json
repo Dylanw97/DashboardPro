@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dwisdom\\Documents\\GitHub\\DashboardPro\\DashboardPro\\DashboardPro\\DashboardPro.csproj": {}
+    "D:\\Desktop\\DashboardPro\\DashboardPro\\DashboardPro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dwisdom\\Documents\\GitHub\\DashboardPro\\DashboardPro\\DashboardPro\\DashboardPro.csproj": {
+    "D:\\Desktop\\DashboardPro\\DashboardPro\\DashboardPro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dwisdom\\Documents\\GitHub\\DashboardPro\\DashboardPro\\DashboardPro\\DashboardPro.csproj",
+        "projectUniqueName": "D:\\Desktop\\DashboardPro\\DashboardPro\\DashboardPro.csproj",
         "projectName": "DashboardPro",
-        "projectPath": "C:\\Users\\dwisdom\\Documents\\GitHub\\DashboardPro\\DashboardPro\\DashboardPro\\DashboardPro.csproj",
-        "packagesPath": "C:\\Users\\dwisdom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dwisdom\\Documents\\GitHub\\DashboardPro\\DashboardPro\\DashboardPro\\obj\\",
+        "projectPath": "D:\\Desktop\\DashboardPro\\DashboardPro\\DashboardPro.csproj",
+        "packagesPath": "C:\\Users\\dylan\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\DashboardPro\\DashboardPro\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\dwisdom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dylan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -43,13 +42,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.Extensions.Logging.Debug": {
-              "target": "Package",
-              "version": "[3.1.0, )"
-            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[3.1.1, )"
             }
           },
           "imports": [
@@ -70,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

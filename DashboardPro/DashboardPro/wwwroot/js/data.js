@@ -1,36 +1,13 @@
-﻿/*
- * ALL FUNCTION FROM HERE **GRAB DATA**
- */
-function getData() {
-    var pageUrl = '<%= ResolveUrl("~/data.cshtml/datapull") %>'
-    //var firstname = ''
-    //var lastname = ''
-    //var parameter = ''
-
+﻿function ConnectionTest() {
     $.ajax({
-        type: 'POST',
-        url: pageUrl,
-        //data: JSON.stringify(parameter),
-        contentType: 'application/json; charset=utf-8',
+        type: 'GET',
         dataType: 'json',
-        success: function (data) {
-            onSuccess(data)
+        contentType: 'application/json',
+        url: "/index?handler=ConnectionTest",
+        success: function (result) {
+            $("#result4").text(result);
         },
-        error: function (data, success, error) {
-            alert("Error: " + error);
+        error: function () {
         }
     });
-    return false;
 }
-
-function onSuccess(data) {
-    alert(data.d);
-}
-
-
-
-
-
-/*
- * ALL FUNCTION FROM HERE **STORE DATA**
- */

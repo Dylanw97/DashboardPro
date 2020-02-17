@@ -1,0 +1,39 @@
+﻿body {
+    /*Alignment*/
+    margin: 0;
+    /*Styling*/
+    background-color: darkgray;
+}
+
+header {
+    /*Alignment*/
+    padding: 20px;
+    /*Styling*/
+    background-color: lightblue;
+    border-bottom: 1px solid black;
+}
+header img {
+    /*Alignment*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*Size*/
+    height: 75px;
+    width: 150px;
+}
+
+nav {
+    /*Alignment*/
+    padding-top: 5px;
+    padding-left: 3px;
+    /*Styling*/
+    background-color: lightgray;
+    box-shadow: 3px 3px 4px #888888;
+}
+
+main {
+    height: auto;
+    width: auto;
+    background-color: white;
+
+}
